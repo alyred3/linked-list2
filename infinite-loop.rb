@@ -21,8 +21,8 @@ def print_values(list_node)
 end
 
   def inifnite?(list)
-    tortoise = list_node
-    hare = list_node
+    tortoise = first_node
+    hare = first_node
 
     until hare.nil?
       hare = hare.next_node
