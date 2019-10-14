@@ -1,3 +1,5 @@
+#reversing list and checking for infinite loop
+
 class LinkedListNode
   attr_accessor :value, :next_node
 
